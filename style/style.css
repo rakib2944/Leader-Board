@@ -212,4 +212,15 @@ hr{
 
     }
     
+    .all-course{
+
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .course{
+
+        flex-direction: row;
+        margin-bottom: 50px;
+    }
+    
 }
