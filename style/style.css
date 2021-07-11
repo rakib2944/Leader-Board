@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.all-players{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.player{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.player img{
+
+    width: 56px;
+    height: 56px;
+}
